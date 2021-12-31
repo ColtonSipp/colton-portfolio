@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* header and nav */
@@ -18,7 +19,11 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0;
+    color: dimgray;
     background-color: #89cff0;
+    padding-left: 30px;
+    position:relative;
+    right: 50px;
 }
 
 header nav {
@@ -36,3 +41,15 @@ header nav ul {
   header nav ul li a {
     padding: 30px 15px;
   }
+
+  /* hero */
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h3 {
+    position: relative;
+    right: ;
+  }
+  
