@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 /* header and nav */
@@ -16,18 +15,21 @@ header {
 }
 
 header h1 {
+    border-radius: 0 10px 10px 0;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
     color: dimgray;
     background-color: #89cff0;
     padding-left: 30px;
+    padding-right: 10px;
     position:relative;
     right: 50px;
 }
 
 header nav {
     margin: 10px;
+    color: #89cff0;
   }
 
 header nav ul {
@@ -40,14 +42,16 @@ header nav ul {
 
   header nav ul li a {
     padding: 30px 15px;
+    color: #89cff0;
   }
 
   /* hero */
 
-  img {
+  .hero-img {
     max-width: 100%;
     height: auto;
   }
+
   h3 {
     display: flex;
     justify-content: flex-end;
@@ -55,5 +59,30 @@ header nav ul {
     right: 20px;
     bottom: 60px;
     color: white;
+    z-index: 100;
+  }
+
+
+  /* works */
+
+
+
+  /* footer */
+  footer {
+    background-color: dimgray;
+    color: #89cff0;
+  }
+
+  footer h2 {
+      color: dimgray;
+      background-color: #89cff0;
+      
+  }
+  
+  footer div ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      list-style: none;
   }
   
