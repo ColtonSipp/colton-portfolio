@@ -49,10 +49,11 @@ header nav ul {
     height: auto;
   }
   h3 {
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    left: 1000px;
-    bottom: 100px;
+    right: 20px;
+    bottom: 60px;
     color: white;
-    background-color: tomato;
   }
   
