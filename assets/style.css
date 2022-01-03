@@ -79,7 +79,7 @@ header nav ul {
   }
 
   .about-me-p {
-      padding: 0 10px;
+    padding: 0 10px;
   }
 
   .selfie {
@@ -93,12 +93,14 @@ header nav ul {
   .run-buddy-img {
       max-width: 95%;
       margin: 30px;
+      border-radius: 50px;
   }
 
   .run-buddy p {
       position: relative;
-      left: 30px;
-      bottom: 50px ;
+      bottom: 50px;
+      color: #89cff0;
+
       
   }
 
@@ -113,6 +115,13 @@ header nav ul {
       width: 900px;
       height: 700px;
       background-size: cover;
+      border-radius: 15px;
+  }
+
+  .code-refactor p {
+    position: relative;
+    bottom: 25px;
+    color: #89cff0;
   }
 
   .sparks-fanpage-img {
@@ -120,7 +129,15 @@ header nav ul {
     width: 900px;
     height: 700px;
     background-size: cover;
+    border-radius: 15px;
 }
+
+    .sparks-fanpage p {
+    position: relative;
+    bottom: 25px;
+    color: #89cff0
+    }
+
   /* footer */
  #contact-me {
      display: flex;
