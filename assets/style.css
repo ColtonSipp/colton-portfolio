@@ -69,35 +69,79 @@ header nav ul {
   /* about me section */
 
   #about-me {
-
+      display: flex;
+      flex-direction: row;
   }
 
+  .about-me-h {
+      padding: 10px;
+      text-align: center;
+  }
+
+  .about-me-p {
+      padding: 0 10px;
+  }
+
+  .selfie {
+      float: left;
+      height: 100px;
+      width: auto;
+  }
 
   /* works */
 
   .run-buddy-img {
-      max-width: 100%;
+      max-width: 95%;
+      margin: 30px;
+  }
+
+  .run-buddy p {
+      position: relative;
+      left: 30px;
+      bottom: 50px ;
+      
+  }
+
+  .small-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
   }
 
   .code-refactor-img {
-      max-width: 50%;
+      float: left;
+      width: 900px;
+      height: 700px;
+      background-size: cover;
   }
 
+  .sparks-fanpage-img {
+    float: right;
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+}
   /* footer */
-  footer {
-    background-color: dimgray;
-    color: #89cff0;
-  }
+ #contact-me {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-between;
+     color: #89cff0;
+ }
 
-  footer h2 {
-      color: dimgray;
-      background-color: #89cff0;
 
-  }
+ footer ul {
+    display: flex;
+    flex-direction: row;
+    ;
+}
 
-  footer div ul {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      list-style: none;
-  }
+ footer ul li {
+     list-style: none;
+ }
+
+ footer ul li a {
+     padding: 10px;
+ }
+ 
