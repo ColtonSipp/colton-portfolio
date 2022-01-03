@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: dimgray;
+}
+
 /* header and nav */
 header {
     padding: 20px 50px;
@@ -40,8 +44,9 @@ header nav ul {
   }
 
   header nav ul li a {
-    padding: 30px 15px;
+    padding: 30px 30px;
     color: #89cff0;
+    font-size: 20px;
   }
 
   /* hero */
@@ -61,11 +66,21 @@ header nav ul {
     z-index: 100;
   }
 
+  /* about me section */
+
+  #about-me {
+
+  }
+
 
   /* works */
 
   .run-buddy-img {
       max-width: 100%;
+  }
+
+  .code-refactor-img {
+      max-width: 50%;
   }
 
   /* footer */
